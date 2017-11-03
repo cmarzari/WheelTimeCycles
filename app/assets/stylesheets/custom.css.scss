@@ -1,0 +1,70 @@
+$navbar-default-bg: #d235e0;
+
+
+
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron{
+    background-image: asset-url('bike.jpg');
+    
+    height: 350px;
+    
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea ;
+    background: #d235e0 ;
+    color: #fff;
+    height: 70px;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+    margin-right: 20px;
+}
